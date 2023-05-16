@@ -10,5 +10,4 @@ COPY ../ ./
 
 RUN pip3 manage.py collectstatic --no-input
 
-
 CMD ["gunicorn", "api_yamdb.wsgi:application", "--bind", "0:8000" ] 
