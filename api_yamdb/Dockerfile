@@ -8,6 +8,8 @@ RUN pip3 install -r ./requirements.txt --no-cache-dir
 
 COPY ../ ./
 
+RUN PWD
+RUN ls
 RUN pip3 manage.py collectstatic --no-input
 
 
