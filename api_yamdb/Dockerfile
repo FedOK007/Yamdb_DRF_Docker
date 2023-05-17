@@ -8,7 +8,7 @@ RUN pip3 install -r ./requirements.txt --no-cache-dir
 
 COPY ../ ./
 
-RUN pip3 api_yamdb/manage.py collectstatic --no-input
+RUN python manage.py collectstatic --no-input
 
 
 CMD ["gunicorn", "api_yamdb.wsgi:application", "--bind", "0:8000" ] 
