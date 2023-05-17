@@ -26,7 +26,7 @@ jobs:
     - name: Get the version
       id: get_version
       # run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
-      run: echo "VERSION=${GITHUB_REF/refs\/tags\//}" >> "$GITHUB_OUTPUT"
+      run: echo "VERSION=${GITHUB_REF}" >> "$GITHUB_OUTPUT"
     
     - name: Print version
       run: echo "VERSION=${{ steps.get_version.outputs.VERSION }}"
