@@ -51,7 +51,7 @@ jobs:
       with:
         context: ./api_yamdb/
         push: true
-        tags: fedek/infra_project:latest
+        tags: fedek/api_yamdb:latest
   
   deploy:
     runs-on: ubuntu-latest
