@@ -6,7 +6,7 @@
 This project is a adapted to Docker and Docker-cpmpose api_yamdb project
 
 ### API Documentation:
-Example and documentation - [http://51.250.102.154/redoc/](http://51.250.102.154/redoc/)
+Example and documentation - [http://localhost/redoc/](http://localhost/redoc/)
 
 ### Project api_yamdb description
 
