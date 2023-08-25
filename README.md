@@ -29,7 +29,7 @@ Created on the basis of the framework [Django REST Framework (DRF)](https://gith
 Clone the repository and go to it on the command line:
 
 ```
-git clone git@github.com:FedOK007/yamdb_final.git
+git clone git@github.com:FedOK007/Yamdb_DRF_Docker.git
 ```
 
 ### **Run images with docker-copmpose**
